@@ -203,3 +203,5 @@
 	var/emote_cd = 0//Emote cooldown.
 
 	var/last_pull_sound = 0
+
+	var/gang = null // A gang a mob is in
