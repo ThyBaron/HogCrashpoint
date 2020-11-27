@@ -1531,6 +1531,8 @@
 #include "code\modules\ext_scripts\irc.dm"
 #include "code\modules\extools\_extools_api.dm"
 #include "code\modules\extools\socket.dm"
+#include "code\modules\fallout\wastes_planet_marker.dm"
+#include "code\modules\fallout\turf\wastes.dm"
 #include "code\modules\family\families.dm"
 #include "code\modules\flufftext\Dreaming.dm"
 #include "code\modules\flufftext\TextFilters.dm"
