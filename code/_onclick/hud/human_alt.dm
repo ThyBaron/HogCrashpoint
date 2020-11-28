@@ -78,7 +78,7 @@
 	using.screen_loc = "-1,1 to -1,4"
 	using.layer = UNDER_HUD_LAYER
 	adding += using
-
+/*
 	using = new /obj/screen() //Upper bar
 	using.dir = NORTH
 	using.icon = ui_style
@@ -86,7 +86,7 @@
 	using.screen_loc = "-1,5"
 	using.layer = UNDER_HUD_LAYER
 	adding += using
-
+*/
 	using = new /obj/screen() //Upper bar
 	using.dir = NORTH
 	using.icon = ui_style

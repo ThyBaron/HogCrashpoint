@@ -84,5 +84,5 @@
 	uniform = /obj/item/clothing/under/rank/jester
 	head = /obj/item/clothing/head/jester
 	shoes = /obj/item/clothing/shoes/jester
-	id_type = /obj/item/weapon/card/id/civilian/jester
+//	id_type = /obj/item/weapon/card/id/civilian/jester
 	pda_type = /obj/item/device/pda/
