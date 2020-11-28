@@ -552,9 +552,10 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 /mob/observer/ghost/verb/respawn()
 	set name = "Respawn"
 	set category = "OOC"
-	set hidden = 1 //Finally.
+//	set hidden = 1 //Finally.
 
-	if(!check_rights(R_ADMIN))	return
+//	if(!check_rights(R_ADMIN))	return
+//Uncomment the two lines above to hard lock respawns. As is tradition.
 
 	if (!(config.abandon_allowed))
 		to_chat(usr, "<span class='notice'>Respawn is disabled.</span>")
