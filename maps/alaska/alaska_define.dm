@@ -1,5 +1,5 @@
 
-/datum/map/pahrump
+/datum/map/alaska
 	name = "Alaska"
 	full_name = "Alaska"
 	path = "alaska"
@@ -13,6 +13,7 @@
 	accessible_z_levels = list("1"=1,"2"=1,"3"=1) //Percentage of chance to get on this or that Z level as you drift through space.
 
 	allowed_spawns = list("Highway Overpass")
+	default_spawn = "Highway Overpass"
 
 	station_name  = "Alaska"
 	station_short = "Alaska"
