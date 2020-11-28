@@ -29,7 +29,6 @@
 
 /turf/simulated/wall/f13/ocp_wall
 	name = "thermoprotected wall"
-	icon_state = "cult"
 
 /turf/simulated/wall/f13/ocp_wall/New(var/newloc)
 	..(newloc, "osmium-carbide plasteel", "osmium-carbide plasteel")
@@ -264,3 +263,15 @@
 	name = "cave floor"
 	icon = 'icons/fallout/turfs/mining.dmi'
 	icon_state = "rockyash"
+
+/////////
+// Decals
+/////////
+/obj/effect/decal/roadline
+	name = "roadline"
+	desc = "Woah'm."
+	density = 0
+	anchored = 1
+	layer = DECAL_LAYER
+	icon = 'icons/fallout/objects/decals.dmi'
+	icon_state = "doublevertical"
